@@ -1,0 +1,210 @@
+:root {
+    --brand: #161616;
+    --sub: #6ac754;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.whatsapp-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-3 {
+    margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(45deg, #25D366, #128C7E);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 1s;
+
+}
+
+.whatsapp-3:hover {
+  background: linear-gradient(45deg, #128C7E, #25D366);
+  transform: scale(1.05);
+  color: white;
+}
+
+.whatsapp-3 i {
+  margin-right: 10px;
+}
+
+
+/*-- Pricing table  --*/
+.ts-pricing-box {
+  margin: 20px 0;
+  padding: 0;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.ts-pricing-box .ts-pricing-header {
+  background: rgb(218, 204, 9);
+  color: #fff;
+  position: relative;
+  padding: 30px 20px;
+}
+
+.ts-pricing-box .ts-pricing-name {
+  font-size: 18px;
+  line-height: normal;
+  margin: 0 0 5px 0;
+  color: #fff;
+}
+
+.ts-pricing-box .ts-pricing-price {
+  font-size: 44px;
+  color: #fff;
+  margin: 15px 0 0;
+  display: inline-block;
+}
+
+.ts-pricing-box .ts-pricing-price > small {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.ts-pricing-box .ts-pricing-features {
+  padding: 15px 0;
+}
+
+.ts-pricing-box .ts-pricing-features ul {
+  padding: 0 20px;
+}
+
+.ts-pricing-box .ts-pricing-features ul > li {
+  padding: 20px 0;
+  border-top: 1px solid #eaeaea;
+}
+
+.ts-pricing-box .ts-pricing-features ul > li:first-child {
+  border-top: 0;
+}
+
+.ts-pricing-box .plan-action {
+  padding-bottom: 40px;
+}
+
+/* Pricing featured */
+.ts-pricing-box.ts-pricing-featured .ts-pricing-header {
+  background: var(--brand);
+}
+
+.btn-price-white{
+  background-color: rgb(218, 204, 9);
+  padding: 15px 40px;
+}
+
+.btn-price{
+  background-color: var(--brand);
+  padding: 15px 40px;
+}
+
+@media (min-width: 967px) {
+  .price-recommend{
+    margin-top: -30px;
+  }
+}
+
+
+/* <section class="main-container py-5" id="courses">
+        <div class="container">
+           <div class="heading_container heading_center my-5" id="training">
+           <h2 class="wow fadeInUp" data-wow-delay="0.2s"> PHP Training Program</h2> </div>
+                <div class="row">
+        
+                <div class="col-lg-4 col-md-6">
+                <div class="ts-pricing-box">
+                    <div class="ts-pricing-header">
+                    <h2 class="ts-pricing-name">Basic</h2>
+                    <h2 class="ts-pricing-price">
+                        <span class="currency">₹</span><strong>!5,000</strong><small>/ Month</small>
+                    </h2>
+                    </div><!-- Pricing header -->
+                    <div class="ts-pricing-features">
+                    <ul class="list-unstyled">
+                        <li>Build a strong foundation in PHP programming</li>
+                        <li>Create interactive and user-friendly web pages</li>
+                        <li>Connect PHP with databases like MySQL</li>
+                        <li>Explore PHP frameworks for beginner-level projects</li>
+                        <li>Hands-on exercises to apply your learning</li>
+                     
+                      
+                        
+                    </ul>
+                    </div><!-- Features end -->
+                    <div class="plan-action">
+                    <a href="tel:+9183004 58655" class="btn-price-white text-white">GET STARTED</a>
+                    </div>
+                </div><!-- Plan 1 end -->
+                </div><!-- Col end -->
+        
+                <div class="col-lg-4 col-md-6 price-recommend">
+                <div class="ts-pricing-box ts-pricing-featured">
+                    <div class="ts-pricing-header">
+                    <h2 class="ts-pricing-name">intermediate</h2>
+                    <h2 class="ts-pricing-price">
+                        <span class="currency">₹</span><strong>25,000</strong><small>/ Month</small>
+                    </h2>
+                    </div><!-- Pricing header -->
+                    <div class="ts-pricing-features">
+                    <ul class="list-unstyled">
+                        <li>Learn OOP concepts for cleaner code structure</li>
+                        <li>Build feature-rich, dynamic web applications</li>
+                        <li>Efficiently integrate and manage MySQL databases</li>
+                        <li> Get hands-on with Laravel or CodeIgniter basics</li>
+                        <li>Learn to connect PHP applications with external APIs</li>
+                      
+                        
+                    </ul>
+                    </div><!-- Features end -->
+                    <div class="plan-action">
+                    <a href="tel:+9183004 58655" class="btn-price text-white">GET STARTED</a>
+                    </div>
+                </div><!-- Plan 2 end -->
+                </div><!-- Col end -->
+        
+                <div class="col-lg-4 col-md-6">
+                <div class="ts-pricing-box">
+                    <div class="ts-pricing-header">
+                    <h2 class="ts-pricing-name">Advanced</h2>
+                    <h2 class="ts-pricing-price">
+                        <span class="currency">₹</span><strong>35,000</strong><small>/ Month</small>
+                    </h2>
+                    </div><!-- Pricing header -->
+                    <div class="ts-pricing-features">
+                    <ul class="list-unstyled">
+                        <li>Master Laravel, Symfony, or CodeIgniter for scalable apps</li>
+                        <li>Build and consume robust APIs with advanced PHP techniques</li>
+                        <li>Implement authentication, encryption, and secure coding</li>
+                        <li> Enhance PHP app speed and efficiency with caching and queries</li>
+                        <li> Learn PHPUnit and advanced debugging tools</li>
+                       
+                    </ul>
+                    </div><!-- Features end -->
+                    <div class="plan-action">
+                    <a href="tel:+9183004 58655" class="btn-price-white text-white">GET STARTED</a>
+                    </div>
+                </div><!-- Plan 3 end -->
+                </div><!-- Col end -->
+        
+            </div>
+            <!--/ Content row end -->
+        
+        </div><!-- Conatiner end -->
+    </section><!-- Main container end --> */
